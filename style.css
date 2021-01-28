@@ -191,6 +191,21 @@ li::before {
   color: #fff;
 }
 
+.bookimage_bg{
+  content: "";
+  margin: -15px;
+  position: relative;
+  width: calc(100vw - 140px);
+  height: 70%;
+  background: #ffffff;
+}
+
+.bookimage{
+  position:relative; top:50%; left:25%;
+  width: 50%;
+  height: auto;
+}
+
 .el__close-btn {
   z-index: -1;
   position: absolute;
