@@ -15,7 +15,11 @@ body {
 
 ::-webkit-scrollbar{
     width: 8px;
+<<<<<<< HEAD
     height: 1px;
+=======
+    height: 10px;
+>>>>>>> 957d1266be6e92dd3763e18ac61d94db71d45383
 }
 ::-webkit-scrollbar-track{
     background: rgba(0, 0, 0, 0.1);
@@ -195,6 +199,7 @@ li::before {
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* 書圖背景(白底) */
 .bookimage_bg{
   content: "";
@@ -214,6 +219,21 @@ li::before {
   max-width: 45vw;
   height: auto;
   max-height: 39vh;
+=======
+.bookimage_bg{
+  content: "";
+  margin: -15px;
+  position: relative;
+  width: calc(100vw - 140px);
+  height: 70%;
+  background: #ffffff;
+}
+
+.bookimage{
+  position:relative; top:50%; left:25%;
+  width: 50%;
+  height: auto;
+>>>>>>> 957d1266be6e92dd3763e18ac61d94db71d45383
 }
 
 .el__close-btn {
